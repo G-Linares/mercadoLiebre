@@ -1,0 +1,342 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto',sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.main-header-top-bar {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    flex: auto;
+    
+}
+
+.main-header-top-bar > div , .main-header-top-bar > img{
+    flex: 50%;
+
+}
+
+.main-header-top-bar h2 {
+    flex: 1 0 100%; 
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.logo {
+    max-width: 50%;
+    max-height: 50%;
+  
+}
+.barra-busqueda {
+    max-width: 50%;
+    padding: 0px;
+    margin: 0;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    column-gap: 0px;
+    
+}
+
+.barra-busqueda #miBusqueda{
+    max-width: 70%;
+    margin: 15px;
+    border-radius: 2px;
+    
+}
+
+.barra-busqueda i {
+
+    position: relative;
+    right: 35px;
+
+
+}
+
+.hamburger-button {
+    background-color:  #03264C;
+    color:  white;
+    display: block;
+    max-width: 45px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+
+}
+
+main {
+    background-color: #ebebeb;
+    margin-top: -30px;
+    padding-top: -30px;
+}
+
+
+main h2 {
+    
+    font-size: 26px;
+    text-align:center;
+    color: rgb(88, 88, 88);
+    
+}
+
+nav img {
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.articulo .textodentro h4{
+    text-align: center;
+}
+
+.articulo:hover .textodentro h4 {
+    display: block;
+    opacity: 1;
+}
+
+.articulo .textodentro i:hover{
+    transform: rotate(-90deg);
+}
+
+.articulo .textodentro i{
+    transition: transform 0.5s;
+}
+
+.arriba {
+    padding-top: 50px
+
+}
+
+.items-Ofertas {
+    margin-top: 50px;
+}
+
+.items-Ultima-Visita, .items-Ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+.articulo {
+    
+    margin-top: 20px;
+    text-align: start;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 25px;
+    margin-bottom: 10px;
+    width: 270px;
+    justify-content: center;    
+
+}
+
+.textodentro {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    border-top: solid #ebebeb 1px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-top: 10px;
+ 
+}
+
+.textodentro h4 {
+    display: block;
+    flex: 1 0 100%; 
+    font-size: 16px;
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+    max-width: 270px;
+    opacity: 0;
+}
+
+.descuento{
+    color:rgb(4, 163, 4);
+}
+
+.articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100,100,100);
+}
+
+.articulo i {
+    color: rgb(4, 163, 4);
+    display: block;
+    font-size: 1em;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: solid rgb(4, 163, 4) 1px;
+    border-width: 1px;
+    border-radius: 50% 50% 50% 50%;
+    position: relative;
+    left: 200px;  
+    bottom: 25px;
+  
+}
+
+footer {
+    padding: 30px;
+    margin: -20px;
+    margin-bottom: -20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 2px;
+}
+
+footer i {
+    margin-top: 40px;
+    color: #1259c3;
+    font-size: 3em;
+    transition: color 0.5s ease;
+}
+
+footer i:hover{
+    cursor: pointer;
+    color: #001b88;
+}
+
+.cuartoTexto {     
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/* Para tables */
+@media (min-width: 480px){
+    .logo {
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .main-header-top-bar{
+        display: flex;
+        margin-bottom: 25px;
+
+    }
+
+    .main-header-top-bar > div , .main-header-top-bar > img , .main-header-top-bar > h2 { 
+        flex: 3 0 33%;
+        max-width: 31%
+    }
+    
+    .copy-header {
+        max-width: 350px;
+        text-align: right;
+    }
+    .hamburger-button {
+        display: none;
+    }
+
+    main h2 {
+        text-align: start;
+        padding-left: 50px;
+    }
+
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    .items-Ultima-Visita , .items-Ofertas {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;    
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .main-header-top-bar, .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar {
+        align-items: center;
+    }
+    .barra-busqueda #miBusqueda{
+        max-width: 70%;
+        margin: 15px;
+        border-radius: 2px;
+        
+    }
+    .copy-header {
+        margin: 0;
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .main-navbar {
+        margin-top: 40px;
+    }   
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+}
+
+
+
+
+

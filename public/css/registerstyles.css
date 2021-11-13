@@ -1,0 +1,96 @@
+* {
+    font-family: 'Roboto',sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+ .main-container {
+    
+    background-color: rgb(226, 225, 225);
+    border-radius: 5px;
+    box-shadow: rgb(58, 58, 58);
+    display: flex;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container form {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+    width: 80%; 
+}
+
+.input-element, .input-element-lista, .input-element-usuario{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;   
+}
+
+.input-element button {
+    padding: 15px;
+    width: 120px;
+    align-self: center;
+}
+
+.input-element input {
+    padding:12px;
+    border-radius: 5px;
+}
+
+.input-element, .input-element-lista, .input-element-usuario label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.opciones-usuario {
+    display: flex;
+    flex-direction: row;
+    padding-top: 22px;
+    justify-content: space-around;
+}
+
+.opciones-lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkboxlista {
+    padding: 10px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hecho-button {
+    background-color:#1259c3;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in;
+}
+
+.hecho-button:hover {
+    background-color: #041733;
+}
+
+.reset-button {
+    background-color:#c31212;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.4s ease-in;
+}
+
+.reset-button:hover {
+    background-color: #330404;
+}
+
+
