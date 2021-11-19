@@ -53,18 +53,15 @@ body {
 }
 
 .barra-busqueda #miBusqueda{
-    max-width: 70%;
+    max-width: 80%;
     margin: 15px;
     border-radius: 2px;
     
 }
 
 .barra-busqueda i {
-
     position: relative;
     right: 35px;
-
-
 }
 
 .hamburger-button {
@@ -240,6 +237,13 @@ footer i:hover{
     color: #001b88;
 }
 
+footer div {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding: 10px;
+   
+}
+
 .cuartoTexto {     
     text-align: center;
     padding-top: 25px;
@@ -314,7 +318,7 @@ footer i:hover{
         align-items: center;
     }
     .barra-busqueda #miBusqueda{
-        max-width: 70%;
+        width: 100%;
         margin: 15px;
         border-radius: 2px;
         
